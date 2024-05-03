@@ -1,0 +1,135 @@
+import { StyleSheet } from 'react-native';
+import { colors } from './colors';
+/**
+ * Global styles for consistent UI styling throughout the application.
+ */
+export const globalStyles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: colors.background,
+    paddingTop: 50,
+  },
+  title: {
+    fontSize: 32,
+    fontWeight: "600",
+    margin: 5,
+    marginVertical: 16,
+    paddingHorizontal: 16,
+  },
+  subtitle: {
+    fontSize: 16,
+    margin: 5,
+  },
+  h2: {
+    fontSize: 16,
+    margin: 5,
+    paddingHorizontal: 16,
+  },
+  h3: {
+    fontSize: 20,
+    fontWeight: "600",
+    margin: 5,
+    marginVertical: 16,
+  },
+  text: {
+    fontSize: 32,
+    fontWeight: "600",
+    color: colors.accent,
+    margin: 5,
+    paddingHorizontal: 16,
+  },
+  cardButton: {
+    justifyContent: "space-between",
+    alignItems: "center",
+    borderWidth: 1,
+    borderColor: "transparent",
+    margin: 5,
+    borderRadius: 10,
+    marginVertical: 16,
+    flexDirection: "row",
+  },
+  containerTwo: {
+    backgroundColor: colors.modal,
+    borderTopRightRadius: 10,
+    borderTopLeftRadius: 10,
+    marginTop: 12,
+    paddingHorizontal: 16,
+    paddingVertical: 16,
+  },
+  containerThree: {
+    backgroundColor: colors.modal,
+    borderRadius: 10,
+    margin: 16,
+    paddingHorizontal: 16,
+    paddingVertical: 16,
+  },
+  card: {
+    justifyContent: "space-between",
+    alignItems: "center",
+    margin: 16,
+    flexDirection: "row",
+    backgroundColor: colors.modal,
+    paddingVertical: 10,
+    borderRadius: 10,
+  },
+  textIcon: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+  },
+  button: {
+    justifyContent: "space-between",
+    alignItems: "center",
+    flexDirection: "row",
+    padding: 16,
+    backgroundColor: colors.accent,
+    borderRadius: 10,
+    borderColor: "transparent",
+    borderWidth: 1,
+    marginVertical: 10,
+    marginHorizontal: 16,
+    text: {
+      fontSize: 14,
+      fontWeight: 600,
+      color: colors.white,
+      margin: 5,
+    },
+  },
+  historyText: {
+    justifyContent: "space-between",
+    alignContent: "center",
+    flexDirection: "row",
+    fontSize: 20,
+    margin: 5,
+    paddingHorizontal: 16,
+  },
+  dataText: {
+    color: colors.accent,
+    fontWeight: "600",
+  },
+  goBack: {
+    flexDirection: "row",
+    justifyContent: "flex-start",
+    alignItems: "center",
+    paddingHorizontal: 16,
+  },
+  progressBarContainer: {
+    height: 12,
+    backgroundColor: colors.white,
+    borderRadius: 4,
+    overflow: "hidden",
+    margin: 18,
+    marginBottom: 16,
+  },
+  progressBar: {
+    height: "100%",
+    backgroundColor: colors.accent,
+  },
+  scoreContainer: {
+    justifyContent: "space-between",
+    alignContent: "center",
+    flexDirection: "row",
+    fontSize: 20,
+    marginVertical: 16,
+  },
+});
